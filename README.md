@@ -1,1 +1,1 @@
-# Amazon-Manual-Testing
+# Automation Testing Training
