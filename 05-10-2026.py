@@ -1,6 +1,5 @@
 # 1. Program that automatically login with username and password in saucedemo website
 
-```py
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -21,11 +20,9 @@ print(username.is_displayed())
 
 login.click()
 driver.quit()
-```
 
 # 2. Program that automatically opens google and search actor chiyan vikram
 
-```py
 from selenium import webdriver
 
 driver = webdriver.Chrome()
@@ -42,11 +39,9 @@ input()
 
 print("ENTER pressed. Closing browser...")
 driver.quit()
-```
 
 # 3. Program that automatically login and shows the products as list of names
 
-```py
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -85,4 +80,3 @@ for product in product_names:
 input("Press ENTER to close the browser...")
 
 driver.quit()
-```
