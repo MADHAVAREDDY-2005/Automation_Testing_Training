@@ -21,6 +21,7 @@ print(username.is_displayed())
 login.click()
 driver.quit()
 
+
 # 2. Program that automatically opens google and search actor chiyan vikram
 
 from selenium import webdriver
@@ -39,6 +40,7 @@ input()
 
 print("ENTER pressed. Closing browser...")
 driver.quit()
+
 
 # 3. Program that automatically login and shows the products as list of names
 
@@ -68,7 +70,6 @@ driver.execute_script("""
         <ol id="product-list"></ol>
     `;
 """)
-
 
 for product in product_names:
     driver.execute_script("""
